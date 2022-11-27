@@ -24,3 +24,21 @@ header {
 header .nav-links a {
     color: #000;
 }
+
+.fa-bars-staggered {
+    display: none;
+}
+
+@media(max-width:768px) {
+ .fa-bars-staggered {
+    display: flex;
+    cursor: pointer;
+ }
+  .nav-links {
+    display: none;
+  }
+  header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
