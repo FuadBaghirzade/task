@@ -42,3 +42,78 @@ header .nav-links a {
     padding-right: 20px;
   }
 }
+
+/*introsection start */
+.introsection {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 7.03rem;
+    padding-right: 0;
+}
+.intro-left-side {
+    padding-top: 117px;
+    min-width: 680px;
+    flex-basis: 50%;
+}
+.intro-left-side h1 {
+ font-size: 70px;
+ font-weight: 700;
+ margin-bottom: 40px;
+}
+.intro-left-side p {
+    margin-bottom: 18px;
+    letter-spacing: 2px;
+    line-height: 33px ;
+    font-size: 22px;
+}
+
+.intro-left-side h1 span {
+    color: orange;
+}
+
+.intro-left-side button {
+    width: 125px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+}
+
+.intro-right-side {
+    padding-top: 70px;
+    min-width: 500px;
+    flex: 1;
+}
+
+.intro-right-side img {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media(max-width:1311px) and (min-width:768px) {
+    .intro-left-side {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .introsection {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media(max-width:768px) {
+    .intro-left-side {
+        min-width: 500px;
+        text-align: center;
+        padding-top: 40px;
+        flex-basis: 100%;
+    }
+    .intro-right-side {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+/* introsection end */
