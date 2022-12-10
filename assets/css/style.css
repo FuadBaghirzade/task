@@ -117,3 +117,33 @@ header .nav-links a {
 
 
 /* introsection end */
+/*trusted by section start */
+  .trusted-by-section > h6 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .trusted-by-companies {
+    display: flex;
+    justify-content: space-around;
+  }
+  @media(max-width:768px) {
+    .trusted-by-company:nth-child(1)
+    .trusted-by-company:nth-child(3) {
+        display: none;
+    }
+    .trusted-by-company:not(:first-child) {
+        display: none;
+    }
+  }
+
+
+
+
+
+
+
+
+
+/*trusted by section finish */
